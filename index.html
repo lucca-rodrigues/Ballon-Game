@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="pt-br">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Game Balões</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body onload="iniciarJogo()">
+
+  <div class="header">
+    <div class="row">
+      <div class="col-lg-6 flex-center">
+        <div class="score">
+            <h3 id="pontuacao"></h3>
+          </div>
+      </div>
+      <div class="col-lg-6 flex-center">
+        <div class="finish">
+          <button onclick="finalizarJogo()"> Finalizar </button>
+        </div>
+      </div>
+    </div>
+  </div> <!-- Header game -->
+  <div class="row flex-center">
+    <h1>Estoure o máximo de balões que você quiser!</h1>
+  </div>
+    
+  <div class="balao"></div>
+  
+</body>
+<script src="index.js"></script>
+</html>

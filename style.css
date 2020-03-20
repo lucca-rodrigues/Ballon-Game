@@ -1,0 +1,21 @@
+body{padding:0;margin:0; width:100%;}
+  .balao{
+    background-image: url('https://impakto.ciaimg.com.br/Assets/Produtos/Grandes/218413-balao-liso-redondo-numero-5-azul-royal.png?v=32c032be-1');
+    width: 140px;
+    height: 140px;
+    margin-top:50px;
+    position: absolute;
+  }
+
+  h3{
+    float: right;
+    color: #00ff;
+    background: #000;
+    padding: 10px;
+    color: #fff;
+  }
+  .header{background: #000;z-index:999;}
+  .row{display:flex;}
+  .col-lg-6{width:50%;}
+  .flex-center{display: flex;align-items: center;justify-content: center;}
+  .text-center{text-align:center!important;}
